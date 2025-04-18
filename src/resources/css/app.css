@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 分析表示 */
+/* 表示速度調整 */
+.transition-max-height {
+  transition: max-height 0.4s ease-in-out;
+}
+
+/* Splide の矢印ナビゲーション（オプション） */
+.splide__arrow {
+  background-color: #0062B1 !important;
+  color: white !important;
+}
